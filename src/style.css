@@ -1,0 +1,50 @@
+html {
+    background-image: url('./assets/space.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.block-with-phone-form {
+    display: grid;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.parent-of-canvas {
+    width: 330px;
+    height: 580px;
+    display: grid;
+    grid-template-rows: 5% 88% 6%;
+    border: 7px solid #35BBE0;
+    border-radius: 20px;
+    background: #B216DE
+}
+
+.head-of-phone {
+    background: #000;
+    margin: auto;
+    border-radius: 20px;
+    width: 62px;
+    height: 14px;
+    text-align: center
+}
+
+.mainCanvas {
+    margin: 0 0 0 10px;
+    background-color: #000;
+}
+
+.button-unblock-phone {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 20px;
+    margin: 5px auto 0 auto;
+}
+
+.unblock-phone-square {
+    width: 13px;
+    height: 13px;
+    border: 1px solid #fff;
+    margin: 6px 0 0 7px;
+}
